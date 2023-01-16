@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+
+  background-color: #2b2929;
+  border-radius: 8px;
+  gap: 12px;
+  padding: 20px;
+}
+
+.wrapperImg {
+
+  width: 240px;
+  height: auto;
+  
+  img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+
+  .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #E1E1E6;
+  }
+
+  .description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #E1E1E6;
+  }
+
+  .challenge {
+    border: 0.5px solid #E1E1E6;
+    border-radius: 8px;
+    color: #E1E1E6;
+    padding: 8px;
+    
+    &:hover {
+      transition: all 400ms;
+      opacity: 55%;
+    }
+  }
+}
