@@ -1,0 +1,84 @@
+.container {
+  background: #2A2141;
+  padding: 30px;
+  border-radius: 9.6px;
+  max-width: 360px;
+}
+
+.wrapperSongInfo  {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+
+  img {
+    width: 84px;
+    height: 84px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .songInfo {}
+
+  .title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #E1E1E6;
+    margin-bottom: 9.6px;
+  }
+
+  .author {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+    color: #E1E1E6;
+    opacity: 67%;
+  }
+}
+
+.wrapperControllerPlayer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 28px 56px;
+ 
+
+
+  button {
+    display: inline-block;
+    border: none;
+    background: transparent;
+    outline-style: none;
+  }
+
+  button:hover {
+    opacity: 75%;
+  }
+}
+
+
+.progressBar {
+  height: 6px;
+  background-color: #C1C0C4;
+  border-radius: 999px;
+  margin-bottom: 9.6px;
+}
+
+.wrapperControllerTime {
+  span {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #E1E1E6;
+    opacity: 67%;
+  }
+
+ 
+}
+.wrapperTimeInfo {
+  display: flex;
+  justify-content: space-between;
+
+}

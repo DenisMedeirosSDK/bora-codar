@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0F0D13;
+  gap: 32px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-areas: 'A B' 'A C';
+  gap: 32px;
+  height: 100%;
+
+  .player-1 {
+    grid-area: A;
+    background: #2A2141;
+  }
+  .player-2 {
+    grid-area: B;
+    background: #2A2141;
+  }
+  .player-3 {
+    grid-area: C;
+    background: #2A2141;
+  }
+
+}
+
+.sideWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
