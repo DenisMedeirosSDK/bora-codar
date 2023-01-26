@@ -12,6 +12,7 @@ function App() {
         <div className={styles.gridChallenge}>
           <CardPreviewChallenge name='Player Music' path='/projeto-01' description='Criar um player de musica' thumbnail='thumbnail_challenge_01.png' />
           <CardPreviewChallenge name='Card de produto' path='/projeto-02' description='Criar uma apresentação de produto' thumbnail='thumbnail_challenge_02.png' />
+          <CardPreviewChallenge name='Botões e cursores' path='/projeto-03' description='Criar uma variação de botões' thumbnail='thumbnail_challenge_03.png' />
         </div>
       </section>
     </div>
