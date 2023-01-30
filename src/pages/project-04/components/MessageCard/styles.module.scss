@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #E1E1E6;
+}
+
+.messageWrapper {
+  max-width: fit-content;
+  padding: 14px;
+  background: #633BBC;
+
+  border-radius: 0px 8px 8px 8px;
+
+  p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E1E1E6;
+  }
+}
+
+.receivedMessage {
+  max-width: fit-content;
+  padding: 14px;
+  background: #07847E;
+  border-radius: 8px 8px 0px 8px;
+}

@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: #1A1924;
+
+  padding: 32px 72px;
+  
+  main {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  max-width: 1024px;
+
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+.timeTodayWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+
+
+  .time {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #E1E1E6;
+  }
+}
+
+
+.chatWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .chat {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: auto;
+    max-height: 500px;
+    flex: auto;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+
+    height: 52px;
+    border-radius: 999px;
+    background: #282843;
+
+    padding: 14px 24px;
+
+    input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: transparent;
+      outline: none;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #E1E1E6;
+    }
+
+
+    .sendMessage {
+      background: transparent;
+      border: none;
+    }
+  }
+}
